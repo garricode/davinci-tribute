@@ -1,4 +1,4 @@
-# Davinci Tribute
+# da Vinci Tribute
 A Free Code Camp tribute page that I coded
 
 <b>To-Do</b>
