@@ -1,0 +1,126 @@
+html {
+    font-size: 100%;
+    background: #4b3215;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.428;
+    background-color: #F3DBBB;
+    max-width: 960px;
+    margin: auto;
+    margin: auto;
+    border: 0 solid;
+    font-family: 'Open Sans', sans-serif;
+    color: #4b3215;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.content {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    max-width: 85%;
+}
+
+img {
+    margin: 5px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-image-slice: 60 91 60 91;
+    border-image-repeat: stretch stretch;
+  
+    /*Uploaded the Oil Frame image to a different server, I keep a copy on my dropbox too. http://tinypic.com/view.php?pic=n4fx9c&s=9#.VwKXdmgrLIU*/
+    
+    border-image-source: url("http://i65.tinypic.com/n4fx9c.png");
+    border-width: 50px;
+}
+
+.wrapper {
+    margin: 20px auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Simonetta', cursive;
+    text-shadow: #B7AA9F 2px 2px 2px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Simonetta', cursive;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Simonetta', cursive;
+    font-weight: bold;
+}
+
+dt {
+    display: list-item;
+    list-style-type: disc;
+}
+
+.footer {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: auto;
+    clear: both;
+    text-align: center;
+}
+
+blockquote {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.cite {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn {
+    display: block;
+    width: 110px;
+    height: auto;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 28px;
+    text-shadow: 0px 1px 0px #4d3534;
+    box-shadow: 2px 2px 2px #B7AA9F;
+    font-family: 'Open Sans', sans-serif;
+    color: #F5F5F5;
+    font-size: 20px;
+    background: #7e5f3c;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #6d5234;
+    text-decoration: none;
+}
